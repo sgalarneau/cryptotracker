@@ -96,6 +96,15 @@ var $USER = [
             },
           ]
         },
+        {
+          chainId: 137,
+          assets: [
+            { 
+              address: "0x9e25126ebcd57c8eb6eb6c2ffc67810d365cfc3e", label:"", symbol:"OPT2", 
+              func: "balanceOf", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:2
+            },
+          ]
+        },
       ]
     },
 
