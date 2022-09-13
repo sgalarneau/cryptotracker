@@ -140,6 +140,22 @@ var $USER = [
       ]
     },
   
-
+    {
+      name: "StableFund",
+      address: "0x6dbb68df6c24c120ef920b6c8132e8098965b062",
+      chains: [
+          
+        {
+          chainId: 56,
+          assets: [
+            { 
+              address: "0x4f2bc1d99c953e0053f5bb9a6855cf7a5cbe66fa", label:"Available", symbol:"BNB", 
+              func: "getAllClaimableReward", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
+            },
+          ]
+        },
+          
+      ]
+    },
 
   ];
