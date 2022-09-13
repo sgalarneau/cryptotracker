@@ -36,6 +36,13 @@ var $USER = [
             },
           ]
         },
+
+        {
+          chainId: 250,
+          assets: [
+            
+          ]
+        },
           
       ]
     },
