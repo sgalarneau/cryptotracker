@@ -1,8 +1,10 @@
 var $USER = [
+    
     {
       name: "Trust Wallet",
       address: "0x64fDc086931255B3214d14Dfe4ad961E9A8F293e",
       chains: [
+          
         {
           chainId: 56,
           assets: [
@@ -24,6 +26,7 @@ var $USER = [
             },
           ]
         },
+          
         {
           chainId: 137,
           assets: [
@@ -33,6 +36,7 @@ var $USER = [
             },
           ]
         },
+          
       ]
     },
     
@@ -40,6 +44,7 @@ var $USER = [
       name: "W.1",
       address: "0xF9A69cab2D19A61E1061af1CEea28B4FF439293f",
       chains: [
+          
         {
           chainId: 56,
           assets: [
@@ -61,6 +66,7 @@ var $USER = [
             },
           ]
         },
+          
       ]
     },
     
@@ -68,6 +74,7 @@ var $USER = [
       name: "W.2",
       address: "0xC409C1C7Ea8f90CA5998C9C646667602380035FB",
       chains: [
+          
         {
           chainId: 56,
           assets: [
@@ -89,6 +96,7 @@ var $USER = [
             },
           ]
         },
+          
       ]
     },
   
@@ -96,6 +104,7 @@ var $USER = [
       name: "W.3",
       address: "0xF78c52Ec3c424898711780ce5C7033A2BBE474d7",
       chains: [
+          
         {
           chainId: 56,
           assets: [
@@ -117,6 +126,7 @@ var $USER = [
             },
           ]
         },
+          
       ]
     },
   
