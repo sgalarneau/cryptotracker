@@ -152,6 +152,10 @@ var $USER = [
               address: "0x4f2bc1d99c953e0053f5bb9a6855cf7a5cbe66fa", label:"Available", symbol:"BNB", 
               func: "getAllClaimableReward", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
             },
+            { 
+              address: "0x4f2bc1d99c953e0053f5bb9a6855cf7a5cbe66fa", label:"Deposits", symbol:"BNB", 
+              func: "getDepositState", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
+            },
           ]
         },
           
