@@ -1,0 +1,102 @@
+var $USER = [
+    {
+      name: "W.1",
+      address: "0xF9A69cab2D19A61E1061af1CEea28B4FF439293f",
+      chains: [
+        {
+          chainId: 56,
+          assets: [
+            { 
+              address: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", label:"", symbol:"BUSD", 
+              func: "balanceOf", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:2
+            },
+            { 
+              address: "0x20f663CEa80FaCE82ACDFA3aAE6862d246cE0333", label:"", symbol:"DRIP", 
+              func: "balanceOf", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3
+            },
+            { 
+              address: "0xFFE811714ab35360b67eE195acE7C10D93f89D8C", label:"Available", symbol:"DRIP", 
+              func: "claimsAvailable", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
+            },
+            { 
+              address: "0xFFE811714ab35360b67eE195acE7C10D93f89D8C", label:"Deposits", symbol:"DRIP", output:"deposits",
+              func: "userInfo", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
+            },
+          ]
+        },
+      ]
+    },
+    
+    {
+      name: "W.2",
+      address: "0xC409C1C7Ea8f90CA5998C9C646667602380035FB",
+      chains: [
+        {
+          chainId: 56,
+          assets: [
+            { 
+              address: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", label:"", symbol:"BUSD", 
+              func: "balanceOf", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:2
+            },
+            { 
+              address: "0x20f663CEa80FaCE82ACDFA3aAE6862d246cE0333", label:"", symbol:"DRIP", 
+              func: "balanceOf", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3
+            },
+            { 
+              address: "0xFFE811714ab35360b67eE195acE7C10D93f89D8C", label:"Available", symbol:"DRIP", 
+              func: "claimsAvailable", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
+            },
+            { 
+              address: "0xFFE811714ab35360b67eE195acE7C10D93f89D8C", label:"Deposits", symbol:"DRIP", output:"deposits",
+              func: "userInfo", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
+            },
+          ]
+        },
+      ]
+    },
+  
+    {
+      name: "W.3",
+      address: "0xF78c52Ec3c424898711780ce5C7033A2BBE474d7",
+      chains: [
+        {
+          chainId: 56,
+          assets: [
+            { 
+              address: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", label:"", symbol:"BUSD", 
+              func: "balanceOf", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:2
+            },
+            { 
+              address: "0x20f663CEa80FaCE82ACDFA3aAE6862d246cE0333", label:"", symbol:"DRIP", 
+              func: "balanceOf", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3
+            },
+            { 
+              address: "0xFFE811714ab35360b67eE195acE7C10D93f89D8C", label:"Available", symbol:"DRIP", 
+              func: "claimsAvailable", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
+            },
+            { 
+              address: "0xFFE811714ab35360b67eE195acE7C10D93f89D8C", label:"Deposits", symbol:"DRIP", output:"deposits",
+              func: "userInfo", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
+            },
+          ]
+        },
+      ]
+    },
+  
+    {
+      name: "Trust Wallet",
+      address: "0x64fDc086931255B3214d14Dfe4ad961E9A8F293e",
+      chains: [
+        {
+          chainId: 56,
+          assets: [
+            { 
+              address: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", label:"", symbol:"BUSD", 
+              func: "balanceOf", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:2
+            },
+          ]
+        },
+      ]
+    },
+
+  ];
