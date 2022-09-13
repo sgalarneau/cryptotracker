@@ -1,5 +1,42 @@
 var $USER = [
     {
+      name: "Trust Wallet",
+      address: "0x64fDc086931255B3214d14Dfe4ad961E9A8F293e",
+      chains: [
+        {
+          chainId: 56,
+          assets: [
+            { 
+              address: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", label:"", symbol:"BUSD", 
+              func: "balanceOf", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:2
+            },
+            { 
+              address: "0x3685407aabf9a0ab54ed39168733b1e2d2a80e5e", label:"Available", symbol:"TRUNK", 
+              func: "claimsAvailable", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
+            },
+            { 
+              address: "0xbd6e5D331A09fb39D28CB76510ae9b7d7781aE68", label:"Available", symbol:"PSTN", 
+              func: "claimsAvailable", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
+            },
+            { 
+              address: "0xbd6e5D331A09fb39D28CB76510ae9b7d7781aE68", label:"Deposits", symbol:"PSTN", output:"deposits",
+              func: "userInfo", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
+            },
+          ]
+        },
+        {
+          chainId: 137,
+          assets: [
+            { 
+              address: "0x9e25126ebcd57c8eb6eb6c2ffc67810d365cfc3e", label:"", symbol:"OPT2", 
+              func: "balanceOf", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:2
+            },
+          ]
+        },
+      ]
+    },
+    
+    {
       name: "W.1",
       address: "0xF9A69cab2D19A61E1061af1CEea28B4FF439293f",
       chains: [
@@ -83,29 +120,6 @@ var $USER = [
       ]
     },
   
-    {
-      name: "Trust Wallet",
-      address: "0x64fDc086931255B3214d14Dfe4ad961E9A8F293e",
-      chains: [
-        {
-          chainId: 56,
-          assets: [
-            { 
-              address: "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", label:"", symbol:"BUSD", 
-              func: "balanceOf", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:2
-            },
-          ]
-        },
-        {
-          chainId: 137,
-          assets: [
-            { 
-              address: "0x9e25126ebcd57c8eb6eb6c2ffc67810d365cfc3e", label:"", symbol:"OPT2", 
-              func: "balanceOf", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:2
-            },
-          ]
-        },
-      ]
-    },
+
 
   ];
