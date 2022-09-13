@@ -40,7 +40,10 @@ var $USER = [
         {
           chainId: 250,
           assets: [
-            
+            { 
+              address: "0x99f07e573A962E489bA0EB9042bDa9f0B4be91cF", label:"Rewards", symbol:"FTM",
+              func: "boneRewards", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:6 
+            },
           ]
         },
           
