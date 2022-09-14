@@ -51,7 +51,7 @@ var $USER = [
     },
     
     {
-      name: "W.1",
+      name: "DRiP0",
       address: "0xF9A69cab2D19A61E1061af1CEea28B4FF439293f",
       chains: [
           
@@ -79,9 +79,25 @@ var $USER = [
           
       ]
     },
-    
+        {
+      name: "StableFund",
+      address: "0x6dbb68df6c24c120ef920b6c8132e8098965b062",
+      chains: [
+          
+        {
+          chainId: 56,
+          assets: [
+            { 
+              address: "0x4f2bc1d99c953e0053f5bb9a6855cf7a5cbe66fa", label:"Available", symbol:"BNB", 
+              func: "getAllClaimableReward", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
+            },
+          ]
+        },
+          
+      ]
+    },
     {
-      name: "W.2",
+      name: "DRiP1",
       address: "0xC409C1C7Ea8f90CA5998C9C646667602380035FB",
       chains: [
           
@@ -111,7 +127,7 @@ var $USER = [
     },
   
     {
-      name: "W.3",
+      name: "DRiP2",
       address: "0xF78c52Ec3c424898711780ce5C7033A2BBE474d7",
       chains: [
           
@@ -139,23 +155,4 @@ var $USER = [
           
       ]
     },
-  
-    {
-      name: "StableFund",
-      address: "0x6dbb68df6c24c120ef920b6c8132e8098965b062",
-      chains: [
-          
-        {
-          chainId: 56,
-          assets: [
-            { 
-              address: "0x4f2bc1d99c953e0053f5bb9a6855cf7a5cbe66fa", label:"Available", symbol:"BNB", 
-              func: "getAllClaimableReward", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
-            },
-          ]
-        },
-          
-      ]
-    },
-
   ];
