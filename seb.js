@@ -49,6 +49,24 @@ var $USER = [
           
       ]
     },
+
+    {
+      name: "StableFund",
+      address: "0x6dbb68df6c24c120ef920b6c8132e8098965b062",
+      chains: [
+          
+        {
+          chainId: 56,
+          assets: [
+            { 
+              address: "0x4f2bc1d99c953e0053f5bb9a6855cf7a5cbe66fa", label:"Available", symbol:"BNB", 
+              func: "getAllClaimableReward", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
+            },
+          ]
+        },
+          
+      ]
+    },
     
     {
       name: "DRiP0",
@@ -79,23 +97,7 @@ var $USER = [
           
       ]
     },
-        {
-      name: "StableFund",
-      address: "0x6dbb68df6c24c120ef920b6c8132e8098965b062",
-      chains: [
-          
-        {
-          chainId: 56,
-          assets: [
-            { 
-              address: "0x4f2bc1d99c953e0053f5bb9a6855cf7a5cbe66fa", label:"Available", symbol:"BNB", 
-              func: "getAllClaimableReward", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
-            },
-          ]
-        },
-          
-      ]
-    },
+ 
     {
       name: "DRiP1",
       address: "0xC409C1C7Ea8f90CA5998C9C646667602380035FB",
