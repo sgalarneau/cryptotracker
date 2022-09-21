@@ -62,6 +62,14 @@ var $USER = [
               address: "0x4f2bc1d99c953e0053f5bb9a6855cf7a5cbe66fa", label:"Available", symbol:"BNB", 
               func: "getAllClaimableReward", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:3 
             },
+              { 
+              address: "0x4f2bc1d99c953e0053f5bb9a6855cf7a5cbe66fa", label:"Claimable", symbol:"BUSD", output:4, 
+              func: "investors", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:2 
+            },
+            { 
+              address: "0x4f2bc1d99c953e0053f5bb9a6855cf7a5cbe66fa", label:"Locked", symbol:"BUSD", output:1, 
+              func: "investors", params: ["_WALLET_ADDRESS_"], numSize:1e18, decimals:2 
+            },
           ]
         },
           
